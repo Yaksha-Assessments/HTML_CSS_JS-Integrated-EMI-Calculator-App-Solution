@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e69500;
+}
+
+.theme-toggle {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.theme-toggle button {
+  width: auto;
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #ddd;
+  color: #333;
+}
+
+.loan-type label {
+  margin-right: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.tenure-toggle {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.tenure-toggle input {
+  flex: 1;
+}
+
+.tenure-toggle button {
+  flex: 1;
+  padding: 10px;
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.tenure-toggle button.active {
+  background-color: #ffa500;
+  color: #fff;
+}
+
+.output {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.output span {
+  float: right;
+}
+
+.dark-mode {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.dark-mode .container {
+  background-color: #333;
+}
+
+.dark-mode input,
+.dark-mode button {
+  background-color: #444;
+  color: white;
+  border: 1px solid #666;
+}
